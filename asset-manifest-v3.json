@@ -1,0 +1,571 @@
+{
+  "version": 3,
+  "root": ".",
+  "folders": {
+    "bags": "Bags",
+    "brushes": "Brushes",
+    "candy": "Candy",
+    "paint": "Paint",
+    "themes": "Themes"
+  },
+  "bags": [
+    {
+      "id": "plastic-bag",
+      "label": "Plastic Bag",
+      "file": "Bags/Plastic Bag.png",
+      "tier": "base"
+    },
+    {
+      "id": "colorful-bags",
+      "label": "Colorful Bags",
+      "file": "Bags/Colorful Bags.png",
+      "tier": "mid"
+    },
+    {
+      "id": "premium-bag",
+      "label": "Premium Bag",
+      "file": "Bags/Premium Bag.png",
+      "tier": "premium"
+    }
+  ],
+  "brushes": [
+    {
+      "id": "thin-brush",
+      "label": "Thin Brush",
+      "file": "Brushes/Thin Brush.png"
+    },
+    {
+      "id": "wide-brush",
+      "label": "Wide Brush",
+      "file": "Brushes/Wide Brush.png"
+    }
+  ],
+  "paint": [
+    {
+      "id": "black-paint",
+      "label": "Black Paint",
+      "file": "Paint/Black Paint.png",
+      "kind": "solid"
+    },
+    {
+      "id": "blue-glitter",
+      "label": "Blue Glitter",
+      "file": "Paint/Blue Glitter.png",
+      "kind": "glitter"
+    },
+    {
+      "id": "blue-paint",
+      "label": "Blue Paint",
+      "file": "Paint/Blue Paint.png",
+      "kind": "solid"
+    },
+    {
+      "id": "green-glitter",
+      "label": "Green Glitter",
+      "file": "Paint/Green Glitter.png",
+      "kind": "glitter"
+    },
+    {
+      "id": "green-paint",
+      "label": "Green Paint",
+      "file": "Paint/Green Paint.png",
+      "kind": "solid"
+    },
+    {
+      "id": "orange-paint",
+      "label": "Orange Paint",
+      "file": "Paint/Orange Paint.png",
+      "kind": "solid"
+    },
+    {
+      "id": "pink-glitter",
+      "label": "Pink Glitter",
+      "file": "Paint/Pink Glitter.png",
+      "kind": "glitter"
+    },
+    {
+      "id": "pink-paint",
+      "label": "Pink Paint",
+      "file": "Paint/Pink Paint.png",
+      "kind": "solid"
+    },
+    {
+      "id": "purple-glitter",
+      "label": "Purple Glitter",
+      "file": "Paint/Purple Glitter.png",
+      "kind": "glitter"
+    },
+    {
+      "id": "red-glitter",
+      "label": "Red Glitter",
+      "file": "Paint/Red Glitter.png",
+      "kind": "glitter"
+    },
+    {
+      "id": "red-paint",
+      "label": "Red Paint",
+      "file": "Paint/Red Paint.png",
+      "kind": "solid"
+    },
+    {
+      "id": "silver-gold-paint",
+      "label": "Silver & Gold Paint",
+      "file": "Paint/Silver_Gold Paint.png",
+      "kind": "special"
+    },
+    {
+      "id": "teal-glitter",
+      "label": "Teal Glitter",
+      "file": "Paint/Teal Glitter.png",
+      "kind": "glitter"
+    },
+    {
+      "id": "white-paint",
+      "label": "White Paint",
+      "file": "Paint/White Paint.png",
+      "kind": "solid"
+    },
+    {
+      "id": "yellow-glitter",
+      "label": "Yellow Glitter",
+      "file": "Paint/Yellow Glitter.png",
+      "kind": "glitter"
+    },
+    {
+      "id": "yellow-paint",
+      "label": "Yellow Paint",
+      "file": "Paint/Yellow Paint.png",
+      "kind": "solid"
+    }
+  ],
+  "candy": [
+    {
+      "id": "aero-mini",
+      "label": "Aero Mini",
+      "file": "Candy/Aero Mini.png",
+      "category": "chocolate"
+    },
+    {
+      "id": "coffee-crisp-mini",
+      "label": "Coffee Crisp Mini",
+      "file": "Candy/Coffee Crisp Mini.png",
+      "category": "chocolate"
+    },
+    {
+      "id": "jolly-rancher-cherry",
+      "label": "Jolly Rancher Cherry",
+      "file": "Candy/Jolly Rancher Cherrry.png",
+      "category": "hard-candy"
+    },
+    {
+      "id": "jolly-rancher-cherry-lime",
+      "label": "Jolly Rancher Cherry Lime",
+      "file": "Candy/Jolly Rancher Cherry Lime.png",
+      "category": "hard-candy"
+    },
+    {
+      "id": "jolly-rancher-watermelon",
+      "label": "Jolly Rancher Watermelon",
+      "file": "Candy/Jolly Rancher Watermelon.png",
+      "category": "hard-candy"
+    },
+    {
+      "id": "kitkat-mini",
+      "label": "KitKat Mini",
+      "file": "Candy/KitKat Mini.png",
+      "category": "chocolate"
+    },
+    {
+      "id": "maynards-berries",
+      "label": "Maynards Berries",
+      "file": "Candy/Maynards Berries.png",
+      "category": "gummy"
+    },
+    {
+      "id": "maynards-fish",
+      "label": "Maynards Fish",
+      "file": "Candy/Maynards Fish.png",
+      "category": "gummy"
+    },
+    {
+      "id": "maynards-fuzzy-peaches",
+      "label": "Maynards Fuzzy Peaches",
+      "file": "Candy/Maynards Puzzy Peaches.png",
+      "category": "gummy"
+    },
+    {
+      "id": "nibs",
+      "label": "Nibs",
+      "file": "Candy/Nibs.png",
+      "category": "licorice"
+    },
+    {
+      "id": "pull-n-peel",
+      "label": "Pull n Peel",
+      "file": "Candy/Pull n Peel.png",
+      "category": "licorice"
+    },
+    {
+      "id": "smarties-mini",
+      "label": "Smarties Mini",
+      "file": "Candy/Smarties Mini.png",
+      "category": "chocolate"
+    },
+    {
+      "id": "sour-patch-kids",
+      "label": "Sour Patch Kids",
+      "file": "Candy/Sour Patch Kids.png",
+      "category": "gummy"
+    }
+  ],
+  "themes": [
+    {
+      "id": "bugs",
+      "label": "Bugs",
+      "folder": "Themes/Bugs",
+      "assets": {
+        "nameLabel": "Themes/Bugs/Bugs Name Label.png",
+        "theme1x1": "Themes/Bugs/Bugs Theme 1x1.png",
+        "cardTheme": "Themes/Bugs/Bugs Theme.png"
+      },
+      "models": [
+        "Themes/Bugs/Butterfly.png",
+        "Themes/Bugs/Caterpillar.png",
+        "Themes/Bugs/Ladybug.png",
+        "Themes/Bugs/Snail.png"
+      ],
+      "allowAllModels": false
+    },
+    {
+      "id": "canada-day",
+      "label": "Canada Day",
+      "folder": "Themes/Canada Day",
+      "assets": {
+        "nameLabel": "Themes/Canada Day/Canada Day Name Label.png",
+        "theme1x1": "Themes/Canada Day/Canada Day Theme 1x1.png",
+        "cardTheme": "Themes/Canada Day/Canada Day Theme.png"
+      },
+      "models": [],
+      "allowAllModels": true
+    },
+    {
+      "id": "christmas",
+      "label": "Christmas",
+      "folder": "Themes/Christmas",
+      "assets": {
+        "nameLabel": "Themes/Christmas/Christmas Name Label.png",
+        "theme1x1": "Themes/Christmas/Christmas Theme 1x1.png",
+        "cardTheme": "Themes/Christmas/Christmas Theme.png"
+      },
+      "models": [
+        "Themes/Christmas/Christmas Tree.png",
+        "Themes/Christmas/Gingerbread Lady.png",
+        "Themes/Christmas/Gingerbread Man.png",
+        "Themes/Christmas/Santa Hat.png",
+        "Themes/Christmas/Snowflake.png",
+        "Themes/Christmas/Snowman.png"
+      ],
+      "allowAllModels": false
+    },
+    {
+      "id": "confetti",
+      "label": "Confetti",
+      "folder": "Themes/Confetti",
+      "assets": {
+        "nameLabel": "Themes/Confetti/Confetti Name Label.png",
+        "theme1x1": "Themes/Confetti/Confetti Theme 1x1.png",
+        "cardTheme": "Themes/Confetti/Confetti Theme.png"
+      },
+      "models": [],
+      "allowAllModels": true
+    },
+    {
+      "id": "construction",
+      "label": "Construction",
+      "folder": "Themes/Construction",
+      "assets": {
+        "nameLabel": "Themes/Construction/Construction Name Label.png",
+        "theme1x1": "Themes/Construction/Construction Theme 1x1.png",
+        "cardTheme": "Themes/Construction/Construction Theme.png"
+      },
+      "models": [
+        "Themes/Construction/Arrow Sign.png",
+        "Themes/Construction/Bulldozer.png",
+        "Themes/Construction/Digging Zone.png",
+        "Themes/Construction/Excavator.png",
+        "Themes/Construction/Hammer.png",
+        "Themes/Construction/Stop Sign.png",
+        "Themes/Construction/Traffic Light.png"
+      ],
+      "allowAllModels": false
+    },
+    {
+      "id": "cowboy",
+      "label": "Cowboy",
+      "folder": "Themes/Cowboy",
+      "assets": {
+        "nameLabel": "Themes/Cowboy/Cowboy Name Label.png",
+        "theme1x1": "Themes/Cowboy/Cowboy Theme 1x1.png",
+        "cardTheme": "Themes/Cowboy/Cowboy Theme Card.png"
+      },
+      "models": [
+        "Themes/Cowboy/Campfire.png",
+        "Themes/Cowboy/Cowboy Boot.png",
+        "Themes/Cowboy/Cowboy Hat.png",
+        "Themes/Cowboy/Cowboy.png",
+        "Themes/Cowboy/Horse.png",
+        "Themes/Cowboy/Horseshoe.png"
+      ],
+      "allowAllModels": false
+    },
+    {
+      "id": "dinosaur",
+      "label": "Dinosaur",
+      "folder": "Themes/Dinosaur",
+      "assets": {
+        "nameLabel": "Themes/Dinosaur/Dinosaur Name Label.png",
+        "theme1x1": "Themes/Dinosaur/Dinosaur Theme 1x1.png",
+        "cardTheme": "Themes/Dinosaur/Dinosaur Theme.png"
+      },
+      "models": [
+        "Themes/Dinosaur/Stegosaurus.png",
+        "Themes/Dinosaur/T-Rex v1.png",
+        "Themes/Dinosaur/T-Rex v2.png",
+        "Themes/Dinosaur/Titanosaurs.png"
+      ],
+      "allowAllModels": false
+    },
+    {
+      "id": "fall",
+      "label": "Fall",
+      "folder": "Themes/Fall",
+      "assets": {
+        "nameLabel": "Themes/Fall/Fall Name Label.png",
+        "theme1x1": "Themes/Fall/Fall Theme 1x1.png",
+        "cardTheme": "Themes/Fall/Fall Theme.png"
+      },
+      "models": [
+        "Themes/Fall/Acorn.png",
+        "Themes/Fall/Beehive.png",
+        "Themes/Fall/Leaf v1.png",
+        "Themes/Fall/Leaf v2.png",
+        "Themes/Fall/Leaf v3.png",
+        "Themes/Fall/Pumpkin v1.png",
+        "Themes/Fall/Pumpkin v2.png"
+      ],
+      "allowAllModels": false
+    },
+    {
+      "id": "farm",
+      "label": "Farm",
+      "folder": "Themes/Farm",
+      "assets": {
+        "nameLabel": "Themes/Farm/Farm Name Label.png",
+        "theme1x1": "Themes/Farm/Farm Theme 1x1.png",
+        "cardTheme": "Themes/Farm/Farm Theme.png"
+      },
+      "models": [
+        "Themes/Farm/Elephant.png",
+        "Themes/Farm/Frog.png",
+        "Themes/Farm/Gorilla.png",
+        "Themes/Farm/Koala Bear.png"
+      ],
+      "allowAllModels": false
+    },
+    {
+      "id": "good-friday",
+      "label": "Good Friday",
+      "folder": "Themes/GoodFriday",
+      "assets": {
+        "nameLabel": "Themes/GoodFriday/Good Friday Name Label.png",
+        "theme1x1": "Themes/GoodFriday/Good Friday Theme 1x1.png",
+        "cardTheme": "Themes/GoodFriday/Good Friday Theme.png"
+      },
+      "models": [
+        "Themes/GoodFriday/Praying Cross.png"
+      ],
+      "allowAllModels": false
+    },
+    {
+      "id": "halloween",
+      "label": "Halloween",
+      "folder": "Themes/Halloween",
+      "assets": {
+        "nameLabel": "Themes/Halloween/Halloween Name Label.png",
+        "theme1x1": "Themes/Halloween/Halloween Theme 1x1.png",
+        "cardTheme": "Themes/Halloween/Halloween Theme.png"
+      },
+      "models": [
+        "Themes/Halloween/Bat.png",
+        "Themes/Halloween/Ghost.png",
+        "Themes/Halloween/Jack-o-Lantern v1.png",
+        "Themes/Halloween/Jack-o-Lantern v2.png",
+        "Themes/Halloween/Jack-o-Lantern v3.png",
+        "Themes/Halloween/Skull.png"
+      ],
+      "allowAllModels": false
+    },
+    {
+      "id": "new-years",
+      "label": "New Years",
+      "folder": "Themes/New Years",
+      "assets": {
+        "nameLabel": "Themes/New Years/New Year Name Label.png",
+        "theme1x1": "Themes/New Years/New Year Theme 1x1.png",
+        "cardTheme": "Themes/New Years/New Year Theme.png"
+      },
+      "models": [],
+      "allowAllModels": true
+    },
+    {
+      "id": "ocean",
+      "label": "Ocean",
+      "folder": "Themes/Ocean",
+      "assets": {
+        "nameLabel": "Themes/Ocean/Ocean Name Label.png",
+        "theme1x1": "Themes/Ocean/Ocean Theme 1x1.png",
+        "cardTheme": "Themes/Ocean/Ocean Theme.png"
+      },
+      "models": [
+        "Themes/Ocean/Clown Fish.png",
+        "Themes/Ocean/Fly Fish.png",
+        "Themes/Ocean/Puffer Fish.png",
+        "Themes/Ocean/Seahorse.png",
+        "Themes/Ocean/Shark.png"
+      ],
+      "allowAllModels": false
+    },
+    {
+      "id": "princess",
+      "label": "Princess",
+      "folder": "Themes/Princess",
+      "assets": {
+        "nameLabel": "Themes/Princess/Princess Name Label.png",
+        "theme1x1": "Themes/Princess/Princess Theme 1x1.png",
+        "cardTheme": "Themes/Princess/Princess Theme.png"
+      },
+      "models": [
+        "Themes/Princess/Princess Crown.png",
+        "Themes/Princess/Princess.png"
+      ],
+      "allowAllModels": false
+    },
+    {
+      "id": "space",
+      "label": "Space",
+      "folder": "Themes/Space",
+      "assets": {
+        "nameLabel": "Themes/Space/Space Name Label.png",
+        "theme1x1": "Themes/Space/Space Theme 1x1.png",
+        "cardTheme": "Themes/Space/Space Theme.png"
+      },
+      "models": [
+        "Themes/Space/Astronaut.png",
+        "Themes/Space/Happy Moon.png",
+        "Themes/Space/Happy Star.png",
+        "Themes/Space/Moon.png",
+        "Themes/Space/Rocket Ship.png",
+        "Themes/Space/Shooting Star.png",
+        "Themes/Space/Star.png"
+      ],
+      "allowAllModels": false
+    },
+    {
+      "id": "summer",
+      "label": "Summer",
+      "folder": "Themes/Summer",
+      "assets": {
+        "nameLabel": "Themes/Summer/Summer Name Label.png",
+        "theme1x1": "Themes/Summer/Summer Theme 1x1.png",
+        "cardTheme": "Themes/Summer/Summer Theme.png"
+      },
+      "models": [
+        "Themes/Summer/Beach.png",
+        "Themes/Summer/Happy Sun.png",
+        "Themes/Summer/Seashell.png",
+        "Themes/Summer/Starfish.png",
+        "Themes/Summer/Umbrella.png"
+      ],
+      "allowAllModels": false
+    },
+    {
+      "id": "unicorn",
+      "label": "Unicorn",
+      "folder": "Themes/Unicorn",
+      "assets": {
+        "nameLabel": "Themes/Unicorn/Unicorn Name Label.png",
+        "theme1x1": "Themes/Unicorn/Unicorn Theme 1x1.png",
+        "cardTheme": "Themes/Unicorn/Unicorn Theme.png"
+      },
+      "models": [
+        "Themes/Unicorn/Rainbow.png",
+        "Themes/Unicorn/Unicorn.png"
+      ],
+      "allowAllModels": false
+    },
+    {
+      "id": "valentine",
+      "label": "Valentine",
+      "folder": "Themes/Valentine",
+      "assets": {
+        "nameLabel": "Themes/Valentine/Valentine Name Label.png",
+        "theme1x1": "Themes/Valentine/Valentine Theme 1x1.png",
+        "cardTheme": "Themes/Valentine/Valentine Theme.png"
+      },
+      "models": [
+        "Themes/Valentine/Kiss Heart.png",
+        "Themes/Valentine/Love Heart.png",
+        "Themes/Valentine/Ribbon Heart.png"
+      ],
+      "allowAllModels": false
+    },
+    {
+      "id": "vehicles",
+      "label": "Vehicles",
+      "folder": "Themes/Vehicles",
+      "assets": {
+        "nameLabel": "Themes/Vehicles/Vehicle Name Label.png",
+        "theme1x1": "Themes/Vehicles/Vehicle Theme 1x1.png",
+        "cardTheme": "Themes/Vehicles/Vehicle Theme.png"
+      },
+      "models": [
+        "Themes/Vehicles/Bus.png",
+        "Themes/Vehicles/Car v1.png",
+        "Themes/Vehicles/Car v2.png",
+        "Themes/Vehicles/Car v3.png",
+        "Themes/Vehicles/Car v4.png",
+        "Themes/Vehicles/Car v5.png",
+        "Themes/Vehicles/Towtruck v1.png",
+        "Themes/Vehicles/Towtruck v2.png"
+      ],
+      "allowAllModels": false
+    }
+  ],
+  "specialRules": {
+    "customTheme": {
+      "hasBuiltInAssets": false,
+      "allowAllModels": true,
+      "allowAllThemeCards": true,
+      "requiresManualBrief": true,
+      "requiresManualQuote": true,
+      "customerCanUploadReference": true
+    },
+    "noThemeSpecificModelsFallback": {
+      "whenThemeHasZeroModels": true,
+      "allowAllModels": true
+    }
+  },
+  "notes": [
+    "All asset paths are relative to the GitHub repository root. Do not prepend 'Website Assets/'.",
+    "Import/copy the assets into the Happy Kits project or its media storage. Do not depend on GitHub raw URLs as the permanent production image host.",
+    "The real filenames 'Candy/Jolly Rancher Cherrry.png' and 'Candy/Maynards Puzzy Peaches.png' contain spelling errors; the manifest keeps those exact paths but uses corrected customer-facing labels.",
+    "If a theme has zero model files, the builder must allow all active plaster models.",
+    "Custom Theme has no built-in card, square preview, or name-label file. It uses a customer description/reference upload and allows all models/assets.",
+    "Cowboy uses 'Themes/Cowboy/Cowboy Theme Card.png' as its full-size card asset."
+  ],
+  "repository": {
+    "github": "https://github.com/Karsely/Website-Assets",
+    "branch": "main",
+    "rawBaseUrl": "https://raw.githubusercontent.com/Karsely/Website-Assets/main"
+  }
+}
